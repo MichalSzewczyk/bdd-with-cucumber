@@ -21,6 +21,6 @@ public class SmallDuck implements Duck {
     }
 
     public String getName() {
-        return "Little";
+        return "Small";
     }
 }
