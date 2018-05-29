@@ -12,12 +12,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ApplicationConfiguration {
-
-    @Bean
-    Output output() {
-        return System.out::println;
-    }
-
     @Bean
     FlyingBehavior flyingBehavior(Output output) {
         return new NoFlying(output);
