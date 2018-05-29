@@ -1,10 +1,13 @@
-package com.zoo;
+package com.zoo.ducks;
 
-public class LittleDuck implements Duck {
+import com.zoo.ducks.behaviors.FlyingBehavior;
+import com.zoo.ducks.behaviors.QuackingBehavior;
+
+public class SmallDuck implements Duck {
     private final FlyingBehavior flyingBehavior;
     private final QuackingBehavior quackingBehavior;
 
-    public LittleDuck(FlyingBehavior flyingBehavior, QuackingBehavior quackingBehavior) {
+    public SmallDuck(FlyingBehavior flyingBehavior, QuackingBehavior quackingBehavior) {
         this.flyingBehavior = flyingBehavior;
         this.quackingBehavior = quackingBehavior;
     }
