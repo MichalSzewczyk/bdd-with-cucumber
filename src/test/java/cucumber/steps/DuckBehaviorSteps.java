@@ -34,8 +34,8 @@ public class DuckBehaviorSteps {
         duckDriver.makeDuckQuack();
     }
 
-    @Then("^duck no quack$")
-    public void duckNoQuack() {
+    @Then("^duck should not quack$")
+    public void duckShouldNotQuack() {
         duckDriver.verifyDuckNotQuacked();
     }
 
