@@ -1,6 +1,6 @@
 package com.zoo.di;
 
-import com.zoo.output.Output;
+import com.zoo.ducks.ports.Output;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,7 +1,7 @@
 package com.zoo;
 
 import com.zoo.di.ApplicationConfiguration;
-import com.zoo.ducks.Duck;
+import com.zoo.ducks.application.Duck;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

@@ -1,6 +1,6 @@
-package com.zoo.ducks.behaviors;
+package com.zoo.ducks.application.behaviors;
 
-import com.zoo.output.Output;
+import com.zoo.ducks.ports.Output;
 
 public class NoFlying implements FlyingBehavior {
     private final Output output;

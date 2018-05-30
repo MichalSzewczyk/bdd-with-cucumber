@@ -1,4 +1,4 @@
-package com.zoo.output;
+package com.zoo.ducks.ports;
 
 public interface Output {
     void print(String data);

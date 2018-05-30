@@ -1,4 +1,4 @@
-package com.zoo.ducks;
+package com.zoo.ducks.application;
 
 public interface Duck {
     void fly();

@@ -1,12 +1,12 @@
 package com.zoo.di;
 
-import com.zoo.ducks.Duck;
-import com.zoo.ducks.SmallDuck;
-import com.zoo.ducks.behaviors.FlyingBehavior;
-import com.zoo.ducks.behaviors.NoFlying;
-import com.zoo.ducks.behaviors.NoQuacking;
-import com.zoo.ducks.behaviors.QuackingBehavior;
-import com.zoo.output.Output;
+import com.zoo.ducks.application.Duck;
+import com.zoo.ducks.application.SmallDuck;
+import com.zoo.ducks.application.behaviors.FlyingBehavior;
+import com.zoo.ducks.application.behaviors.NoFlying;
+import com.zoo.ducks.application.behaviors.NoQuacking;
+import com.zoo.ducks.application.behaviors.QuackingBehavior;
+import com.zoo.ducks.ports.Output;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

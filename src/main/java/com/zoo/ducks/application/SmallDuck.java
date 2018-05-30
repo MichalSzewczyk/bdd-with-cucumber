@@ -1,7 +1,7 @@
-package com.zoo.ducks;
+package com.zoo.ducks.application;
 
-import com.zoo.ducks.behaviors.FlyingBehavior;
-import com.zoo.ducks.behaviors.QuackingBehavior;
+import com.zoo.ducks.application.behaviors.FlyingBehavior;
+import com.zoo.ducks.application.behaviors.QuackingBehavior;
 
 public class SmallDuck implements Duck {
     private final FlyingBehavior flyingBehavior;
