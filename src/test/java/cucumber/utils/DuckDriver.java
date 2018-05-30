@@ -1,7 +1,7 @@
 package cucumber.utils;
 
-import com.zoo.ducks.Duck;
-import com.zoo.output.Output;
+import com.zoo.ducks.application.Duck;
+import com.zoo.ducks.ports.Output;
 
 import static org.mockito.Mockito.verify;
 

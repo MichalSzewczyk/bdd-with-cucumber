@@ -1,6 +1,6 @@
 package cucumber;
 
-import com.zoo.output.Output;
+import com.zoo.ducks.ports.Output;
 import org.springframework.context.annotation.Bean;
 
 import static org.mockito.Mockito.mock;
