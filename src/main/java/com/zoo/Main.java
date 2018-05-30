@@ -1,5 +1,6 @@
 package com.zoo;
 
+import com.zoo.di.AdaptersConfiguration;
 import com.zoo.di.ApplicationConfiguration;
 import com.zoo.ducks.application.Duck;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -22,6 +23,7 @@ public class Main {
     private static AnnotationConfigApplicationContext getConfiguredApplicationContext() {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
         applicationContext.register(ApplicationConfiguration.class);
+        applicationContext.register(AdaptersConfiguration.class);
         applicationContext.refresh();
         return applicationContext;
     }
